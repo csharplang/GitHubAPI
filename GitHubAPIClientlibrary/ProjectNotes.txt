@@ -1,0 +1,18 @@
+
+* Create project
+dotnet new sln -n PassGen
+dotnet new console -n PassGen
+dotnet sln PassGen.sln add PassGen/PassGen.csproj
+
+* Run project
+> cd project dir
+> dotnet restore
+> dotnet run 
+
+
+Main project: https://github.com/octokit/octokit.net
+Install-Package Octokit
+dotnet add package Octokit --version 0.32.0 
+
+Install-Package Octokit.Reactive
+
